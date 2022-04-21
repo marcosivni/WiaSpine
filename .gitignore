@@ -1,3 +1,10 @@
+# Regular files
+/3rd-party
+*~
+*.pro
+transfer.bat
+*.svg
+
 # C++ objects and libs
 *.slo
 *.lo
