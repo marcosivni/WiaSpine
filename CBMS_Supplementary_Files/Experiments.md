@@ -6,7 +6,7 @@
 **A conference paper entitled "Wia-Spine: A CBIR environment with embedded radiomic features to assess fragility fractures" was submitted to the IEEE 35th International Symposium on Computer-Based Medical Systems (CBMS). The supplementary list of materials for the paper is as follows.**
 
 
-## Supplementary Material - The HC_LVERT dataset
+## The HC_LVERT dataset
 
 The complete image dataset is available [here](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Images/Imgs.zip).
 Please, notice that:
@@ -83,7 +83,7 @@ The matlab script to reproduce the t-Test is available in the file:
 1. [testskNN.m](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Test_Code/testskNN.m) - Matlab script to reproduce the hypothesis test.
 
 
-## Supplementary Material - Experimental Workbench
+## Experimental Workbench
 
 **Data Analysis (Page 04).**
 
