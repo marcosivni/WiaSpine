@@ -149,8 +149,8 @@ Wia-Spine is now ready to query the HC_LVERT dataset.
 ## Notes
 
 - Wia-Spine is NOT clinical software. **It is built for education and demonstration purposes ONLY!**
-- Scripts of the example in this guide are available at dir [/model](https://github.com/marcosivni/wia-spine/blob/main/model)
-- Images of the example are available at dir [/CBMS_Supplementary_Files](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files)
+- Scripts of the example in this guide are available at dir [/model](https://github.com/marcosivni/WiaSpine/blob/main/model)
+- Images of the example are available at dir [/CBMS_Supplementary_Files](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files)
 - _(C) THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHORS OF THIS SOFTWARE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE._
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
@@ -166,6 +166,6 @@ Wia-Spine is now ready to query the HC_LVERT dataset.
    [kundaha]: <https://github.com/marcosivni/kundaha>
    [brid]: <https://www.researchgate.net/profile/Lucio-Dutra-Santos/publication/262253340_Parameter-free_and_domain-independent_similarity_search_with_diversity/links/5ca4aea4299bf1b86d61d045/Parameter-free-and-domain-independent-similarity-search-with-diversity.pdf>
    [agg]: <https://eprints.ukh.ac.id/id/eprint/186/1/2015_Book_DataMining.pdf>
-   [dataset]: <https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Dataset.md>
+   [dataset]: <https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Experiments.md>
    [birads]: <https://www.acr.org/Clinical-Resources/Reporting-and-Data-Systems/Bi-Rads>
    
