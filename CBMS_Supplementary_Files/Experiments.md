@@ -18,7 +18,7 @@ Please, notice that:
 2. The overlays are available in the Overlay_Images folder.
 > You can use the binary mask to overlay the images within the folder JPEG_Images.
 
-The dataset annotations are available [here](https://github.com/marcosivni/WiaSpine/tree/main/CBMS_Supplementary_Files/HC_LVERT.csv). 
+The dataset annotations are available [here](https://github.com/marcosivni/WiaSpine/tree/main/CBMS_Supplementary_Files/Data/HC_LVERT.csv). 
 They include three files, namely:
 
 1. [HC_LVERT_Attribute_Caption.csv](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/HC_LVERT_Attribute_Caption.csv) - It includes the description and interpretation of metadata attributes.
