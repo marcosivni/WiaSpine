@@ -1,0 +1,51 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1 -batch-size 20
+Relation:     Patients_HC_LVERT-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.Remove-R1,4
+Instances:    47
+Attributes:   4
+              Age
+              AgeMenopause
+              BMDtscore
+              Diagnostic
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+JRIP rules:
+===========
+
+(Age >= 70) and (AgeMenopause <= 48) => Diagnostic=1 (14.0/2.0)
+(Age >= 77) => Diagnostic=1 (4.0/0.0)
+ => Diagnostic=0 (29.0/7.0)
+
+Number of Rules : 3
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          28               59.5745 %
+Incorrectly Classified Instances        19               40.4255 %
+Kappa statistic                          0.1874
+Mean absolute error                      0.4433
+Root mean squared error                  0.5229
+Relative absolute error                 88.5603 %
+Root relative squared error            104.4319 %
+Total Number of Instances               47     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,708    0,522    0,586      0,708    0,642      0,192    0,606     0,597     0
+                 0,478    0,292    0,611      0,478    0,537      0,192    0,606     0,564     1
+Weighted Avg.    0,596    0,409    0,598      0,596    0,590      0,192    0,606     0,581     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 17  7 |  a = 0
+ 12 11 |  b = 1
+

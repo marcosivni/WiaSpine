@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -O -U -B -M 2 -batch-size 20
+Relation:     Patients_HC_LVERT-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.Remove-R1,4
+Instances:    47
+Attributes:   4
+              Age
+              AgeMenopause
+              BMDtscore
+              Diagnostic
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 unpruned tree
+------------------
+
+Age <= 76.0
+|   AgeMenopause <= 49.0
+|   |   Age <= 69.0: 0 (16.0/6.0)
+|   |   Age > 69.0
+|   |   |   BMDtscore <= -1.6: 1 (6.0)
+|   |   |   BMDtscore > -1.6: 0 (2.0/1.0)
+|   AgeMenopause > 49.0: 0 (13.0/1.0)
+Age > 76.0
+|   AgeMenopause <= 44.0: 0 (2.0/1.0)
+|   AgeMenopause > 44.0: 1 (8.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances          28               59.5745 %
+Incorrectly Classified Instances        19               40.4255 %
+Kappa statistic                          0.1933
+Mean absolute error                      0.4312
+Root mean squared error                  0.4968
+Relative absolute error                 86.1503 %
+Root relative squared error             99.2144 %
+Total Number of Instances               47     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,542    0,348    0,619      0,542    0,578      0,195    0,624     0,629     0
+                 0,652    0,458    0,577      0,652    0,612      0,195    0,624     0,580     1
+Weighted Avg.    0,596    0,402    0,598      0,596    0,595      0,195    0,624     0,605     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 13 11 |  a = 0
+  8 15 |  b = 1
+
