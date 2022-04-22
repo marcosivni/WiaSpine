@@ -8,7 +8,7 @@
 
 ## The HC_LVERT dataset
 
-The complete image dataset is available [here](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Images/Imgs.zip).
+The complete image dataset is available [here](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Images/Imgs.zip).
 Please, notice that:
 
 
@@ -18,69 +18,69 @@ Please, notice that:
 2. The overlays are available in the Overlay_Images folder.
 > You can use the binary mask to overlay the images within the folder JPEG_Images.
 
-The dataset annotations are available [here](https://github.com/marcosivni/wia-spine/tree/main/CBMS_Supplementary_Files/HC_LVERT.csv). 
+The dataset annotations are available [here](https://github.com/marcosivni/WiaSpine/tree/main/CBMS_Supplementary_Files/HC_LVERT.csv). 
 They include three files, namely:
 
-1. [HC_LVERT_Attribute_Caption.csv](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/HC_LVERT_Attribute_Caption.csv) - It includes the description and interpretation of metadata attributes.
+1. [HC_LVERT_Attribute_Caption.csv](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/HC_LVERT_Attribute_Caption.csv) - It includes the description and interpretation of metadata attributes.
 
-2. [HC_LVERT.csv](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/HC_LVERT.csv) - It contains the diagnosis and references for the dataset patients.
+2. [HC_LVERT.csv](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/HC_LVERT.csv) - It contains the diagnosis and references for the dataset patients.
 > Patient annotations are rather global information that will be eventually replicated for different vertebral bodies.
 
-3. [HC_LVERT_ALL_VERTEBRAE.csv](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/HC_LVERT_ALL_VERTEBRAE.csv) - It includes the diagnosis and references for the dataset vertebral bodies.
+3. [HC_LVERT_ALL_VERTEBRAE.csv](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/HC_LVERT_ALL_VERTEBRAE.csv) - It includes the diagnosis and references for the dataset vertebral bodies.
 
 
 The fine-tuned radiomic features employed in the experiments are available in the files:
 
-1. [Features.csv](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Features.csv) - Data can be used for other Machine Learning tasks and/or scholar/teaching activities.
+1. [Features.csv](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Features.csv) - Data can be used for other Machine Learning tasks and/or scholar/teaching activities.
 > Features can be row-crossed against file HC_LVERT_ALL_VERTEBRAE.csv to generate a dataset with features and annotations combined.
 
-2. [Names_FS_Relief.csv](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Names_FS_Relief.csv) - Names of the PyRadiomic select features (top-40) by Relief.
+2. [Names_FS_Relief.csv](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Names_FS_Relief.csv) - Names of the PyRadiomic select features (top-40) by Relief.
 
 
 Radiomic features analyzed in the experiments are available in the files:
 
-1. [Patients_HC_LVERT.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Patients_HC_LVERT.arff) - Annotated data grouped by patient.
+1. [Patients_HC_LVERT.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Patients_HC_LVERT.arff) - Annotated data grouped by patient.
 
-2. [DatasetMinusIds.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/DatasetMinusIds.arff) - Scaled radiomic features, embedding dimensionality.
+2. [DatasetMinusIds.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/DatasetMinusIds.arff) - Scaled radiomic features, embedding dimensionality.
 
-3. [Dataset_T2_40d_REL_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_40d_REL_BIN.arff) - Scaled radiomic features, RelieF selection (SP rule).
+3. [Dataset_T2_40d_REL_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_40d_REL_BIN.arff) - Scaled radiomic features, RelieF selection (SP rule).
 
-4. [Dataset_T2_40d_PCA_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_40d_PCA_BIN.arff) - Scaled radiomic features, PCA transformation (SP rule).
+4. [Dataset_T2_40d_PCA_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_40d_PCA_BIN.arff) - Scaled radiomic features, PCA transformation (SP rule).
 
-5. [Dataset_T2_40d_CFS_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_40d_CFS_BIN.arff) - Scaled radiomic features, CFS selection (SP rule).
+5. [Dataset_T2_40d_CFS_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_40d_CFS_BIN.arff) - Scaled radiomic features, CFS selection (SP rule).
 
-6. [Dataset_T2_16d_REL_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_16d_REL_BIN.arff) - Scaled radiomic features, RelieF selection (BS rule).
+6. [Dataset_T2_16d_REL_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_16d_REL_BIN.arff) - Scaled radiomic features, RelieF selection (BS rule).
 
-7. [Dataset_T2_16d_PCA_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_16d_PCA_BIN.arff) - Scaled radiomic features, PCA transformation (BS rule).
+7. [Dataset_T2_16d_PCA_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_16d_PCA_BIN.arff) - Scaled radiomic features, PCA transformation (BS rule).
 
-8. [Dataset_T2_16d_CFS_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_16d_CFS_BIN.arff) - Scaled radiomic features, CFS selection (BS rule).
+8. [Dataset_T2_16d_CFS_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_16d_CFS_BIN.arff) - Scaled radiomic features, CFS selection (BS rule).
 
-9. [Dataset_T2_6d_REL_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_6d_REL_BIN.arff) - Scaled radiomic features, RelieF selection (KG rule).
+9. [Dataset_T2_6d_REL_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_6d_REL_BIN.arff) - Scaled radiomic features, RelieF selection (KG rule).
 
-10. [Dataset_T2_6d_PCA_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_6d_PCA_BIN.arff) - Scaled radiomic features, PCA transformation (KG rule).
+10. [Dataset_T2_6d_PCA_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_6d_PCA_BIN.arff) - Scaled radiomic features, PCA transformation (KG rule).
 
-11. [Dataset_T2_6d_CFS_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_6d_CFS_BIN.arff) - Scaled radiomic features, CFS selection (KG rule).
+11. [Dataset_T2_6d_CFS_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_6d_CFS_BIN.arff) - Scaled radiomic features, CFS selection (KG rule).
 
-12. [Dataset_T2_2d_REL_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_2d_REL_BIN.arff) - Scaled radiomic features, RelieF selection (ID rule).
+12. [Dataset_T2_2d_REL_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_2d_REL_BIN.arff) - Scaled radiomic features, RelieF selection (ID rule).
 
-13. [Dataset_T2_2d_PCA_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_2d_PCA_BIN.arff) - Scaled radiomic features, PCA transformation (ID rule).
+13. [Dataset_T2_2d_PCA_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_2d_PCA_BIN.arff) - Scaled radiomic features, PCA transformation (ID rule).
 
-14. [Dataset_T2_2d_CFS_BIN.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_2d_CFS_BIN.arff) - Scaled radiomic features, CFS selection (ID rule).
+14. [Dataset_T2_2d_CFS_BIN.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Dataset_T2_2d_CFS_BIN.arff) - Scaled radiomic features, CFS selection (ID rule).
 
 
 
 The learning models discussed in the experiments are available in the files:
 
-1. [kNN-Base-K1-L2.model](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Test_Code/kNN-Base-K1-L2.model) - kNN-based model.
+1. [kNN-Base-K1-L2.model](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Test_Code/kNN-Base-K1-L2.model) - kNN-based model.
 
-2. [JRIP-Patients-HC_LVERT.model](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Test_Code/JRIP-Patients-HC_LVERT.model) - JRip-based model.
+2. [JRIP-Patients-HC_LVERT.model](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Test_Code/JRIP-Patients-HC_LVERT.model) - JRip-based model.
 
-3. [J48-DT-Patients-HC_LVERT.model](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Test_Code/J48-DT-Patients-HC_LVERT.model) - J48-based model.
+3. [J48-DT-Patients-HC_LVERT.model](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Test_Code/J48-DT-Patients-HC_LVERT.model) - J48-based model.
 
 
 The matlab script to reproduce the t-Test is available in the file:
 
-1. [testskNN.m](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Test_Code/testskNN.m) - Matlab script to reproduce the hypothesis test.
+1. [testskNN.m](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Test_Code/testskNN.m) - Matlab script to reproduce the hypothesis test.
 
 
 ## Experimental Workbench
@@ -89,8 +89,8 @@ The matlab script to reproduce the t-Test is available in the file:
 
 1. Setup:
     - Weka Version: 3.8.4 (Available [here](https://waikato.github.io/weka-wiki/)).
-    - Input file: [Patients_HC_LVERT.arff](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Data/Patients_HC_LVERT.arff)
-    - Input model (Decision-Tree): [J48-DT-Patients-HC_LVERT.model](https://github.com/marcosivni/wia-spine/blob/main/CBMS_Supplementary_Files/Test_Code/J48-DT-Patients-HC_LVERT.model)
+    - Input file: [Patients_HC_LVERT.arff](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Data/Patients_HC_LVERT.arff)
+    - Input model (Decision-Tree): [J48-DT-Patients-HC_LVERT.model](https://github.com/marcosivni/WiaSpine/blob/main/CBMS_Supplementary_Files/Test_Code/J48-DT-Patients-HC_LVERT.model)
     - (Batch size: 20, Binary splits, Unpruned, Min objects per leaf: 02)
     - Input model (Decision-Rules): JRIP-Patients-HC_LVERT.model
     - (Batch size: 20)
